@@ -4,49 +4,69 @@
   <meta charset="utf-8">
   <title>My Profile</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"> -->
 </head>
 <body>
-  <div class="card" id="profile_card">
-    <img src="images/pf_picture.jpeg">
-    <h1>Jordy Kléberg</h1>
-    <h2>Job title</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita laboriosam exercitationem praesentium, facilis nulla. Voluptatem, debitis, nesciunt. Eos nemo, alias sequi, a maiores omnis eveniet blanditiis dignissimos porro tenetur autem.</p>
-  </div>
-  <div class="card" id="social_links">
-    <h2>Social Media Links</h2>
-      <a href="#">Facebook
-        <i class="fab fa-facebook-square"></i>
-      </a>
-      <a href="instagram.com">Instagram
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="twitter.com">Twitter
-        <i class="fab fa-twitter-square"></i>
-      </a>
-  </div>
-  <div class="card" id="favorite-movies">
-    <h2>Favorite Movies</h2>
-    <table>
-      <tr>
-        <th>Movie Title</th>
-        <th>Movie Cover</th>
-      </tr>
-      <tr>
-        <td>Iron Man 3</td>
-        <td><img src="images/iron_man_3.jpg"></td>
-      </tr>
-      <tr>
-        <td>Avengers Infinity War</td>
-        <td><img src="images/avengers.png"></td>
-      </tr>
-      <tr>
-        <td>Thor Ragnarok</td>
-        <td><img src="images/thor_ragnarok.jpg"></td>
-      </tr>
-    </table>
+  <div class="card_wrapper">
+    <div class="card" id="profile_card">
+      <img src="images/pf_picture.jpeg">
+      <h1>Jordy Kléberg</h1>
+      <h2>Programmer at LeWagon</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita laboriosam exercitationem praesentium, facilis nulla. Voluptatem, debitis, nesciunt. Eos nemo, alias sequi, a maiores omnis eveniet blanditiis dignissimos porro tenetur autem.</p>
+    </div>
+    <div class="card">
+      <ul class="social_items">
+        <li>
+          <a href="">
+            <i class="fab fa-twitter"></i>
+            <br>
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fab fa-facebook"></i>
+            <br>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fab fa-instagram"></i>
+            <br>
+            Instagram
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="card" id=favorite-movies">
+      <h2>Favorite Movies</h2>
+      <table id="movies">
+        <tr>
+          <td><img src="images/iron_man_3.jpg"></td>
+          <td>
+            <h3>Iron Man 3</h3>
+              <p>When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="images/avengers.png"></td>
+          <td>
+            <h3>Avengers Infinity War</h3>
+              <p>The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</p>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="images/thor_ragnarok.jpg"></td>
+          <td>
+            <h3>Thor Ragnarok</h3>
+              <p>Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </body>
 </html>
